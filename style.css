@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+  }
+  
+  .syc1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: white;
+  }
+
+  .msg{
+    position: absolute;
+    top: 320px;
+    left: 430px;
+    color: rgb(0, 255, 136);
+  }
+
+  .syc{
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    color:  rgb(255, 255, 255);
+  }
+  
+  body {
+    background-color: rgb(8, 121, 165);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background-color: rgb(9, 147, 226);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+
+  
+  .btn.correct {
+    background-color: green;
+  }
+  
+  .btn.wrong {
+    background-color: red;
+  }
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .modal{
+    position: absolute;
+    top : 300px;
+  }
